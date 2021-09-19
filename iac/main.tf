@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     encrypt        = true
-    bucket = "wheel-project-terraform"
+    bucket = "myapp-terraform-backend"
     key    = "tf/state/terraform.tfstate"
     region = "us-east-1"
   }
